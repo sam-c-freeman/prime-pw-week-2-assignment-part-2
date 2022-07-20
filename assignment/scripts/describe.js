@@ -165,7 +165,7 @@ const time = 4;
 
 
 // FIX- this part of the code block should check temp AND time
-// if (temp > 39 && time >=4)    like this
+// if (temp > 39 && time >=4)   <--- like this
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
